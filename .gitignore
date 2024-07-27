@@ -1,0 +1,11 @@
+.Rproj.user
+inst/doc
+
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+
+# do not track notes in dev folder
+dev/*

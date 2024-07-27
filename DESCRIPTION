@@ -1,0 +1,42 @@
+Package: wbplot
+Title: Provides ggplot2 themes and color palettes for World Bank
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+        person(
+            "Arthur", "Shaw",
+            email = "jshaw@worldbank.org",
+            role = c("aut", "cre")
+        ),
+        person(
+            "Maryam", "Gul",
+            email = "mgul@worldbankgroup.org",
+            role = c("aut")
+        ),
+        person(
+            "LSMS Group, World Bank",
+            email = "lsms@worldbank.org",
+            role = c("cph", "fnd")
+        )
+    )
+Description: A set of tools for producing plots aligned with World Bank's
+    visual identity. For colors, a collection of corporate colors and color
+    palettes derived from them. For fonts, a means of effortlessly loading
+    corporate fonts or, failing that, their rough equivalents.
+    And for plot themes, a curated set of themes tailored to the needs of
+    common plot types and offering toggles for common plot type-specific
+    choices (e.g., enable grid lines, axis titles, etc).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    fs,
+    ggplot2,
+    ggtext,
+    showtext,
+    sysfonts,
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
