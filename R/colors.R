@@ -148,6 +148,40 @@ wb_yellow_pal <- c(
 '#3a0000', '#603100', '#905c00', '#c58801', '#fdb714'
 )
 
-# color ramps
 
-# diverging
+# ==============================================================================
+# Diverging palettes ?
+# ==============================================================================
+
+# brown-green
+# 
+
+# red-blue
+# red from SDG poverty icon: "#e5243b"
+# blue from SDG Atlas poverty graphs: "#2d9dcc"
+# https://projects.susielu.com/viz-palette?colors=[%22#00375e%22,%22#006792%22,%22#2299c6%22,%22#69ccf8%22,%22#f5f5f5%22,%22#fbb0af%22,%22#f6646b%22,%22#cc1b2c%22,%22#830000%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
+pal_blue_red <- c(
+'#00375e', '#006792', '#2299c6', '#69ccf8', '#f5f5f5', '#fbb0af', '#f6646b', '#cc1b2c', '#830000'
+)
+
+# green-grey
+# greenery to urban density
+# https://projects.susielu.com/viz-palette?colors=[%22#003c00%22,%22#106d0a%22,%22#35a228%22,%22#72d65d%22,%22#f5f5f5%22,%22#bfbfbf%22,%22#8b8b8b%22,%22#5b5b5b%22,%22#2e2e2e%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
+# https://gka.github.io/palettes/#/9|d|008000|808080|1|1
+# small problems occur for two colors at polar ends of palette for some
+# visual deficiencies
+pal_green_grey <- c(
+'#003c00', '#106d0a', '#35a228', '#72d65d', '#f5f5f5', '#bfbfbf', '#8b8b8b', '#5b5b5b', '#2e2e2e'
+)
+
+# green-brown
+# https://projects.susielu.com/viz-palette?colors=[%22#003a26%22,%22#0f6a52%22,%22#339d83%22,%22#6ed1b5%22,%22#f5f5f5%22,%22#f5af8c%22,%22#bc7c5b%22,%22#864c2d%22,%22#521f00%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
+# small problems start in protanopia and grow pronounced in greyscale
+# https://gka.github.io/palettes/#/9|d|007c63|673115|1|1
+pal_green_brown <- c(
+'#003a26', '#0f6a52', '#339d83', '#6ed1b5', '#f5f5f5', '#f5af8c', '#bc7c5b', '#864c2d', '#521f00'
+# consider also:
+# https://projects.susielu.com/viz-palette?colors=[%22#0f3608%22,%22#3d6433%22,%22#6e9561%22,%22#a0ca93%22,%22#f5f5f5%22,%22#bf9d86%22,%22#866556%22,%22#4f332c%22,%22#210000%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
+# minor problems with some common visual deficiencies
+# significant problems with deuteranopia and greyscale
+)
