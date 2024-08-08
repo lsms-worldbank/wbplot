@@ -1,3 +1,27 @@
+# ==============================================================================
+# Main corporate colors
+# ==============================================================================
+
+#' @title World Bank dark blue
+#' @family World Bank main corporate colors
+#' @export
+wb_dark_blue <- "#002244"
+
+#' @title World Bank light blue
+#' @family World Bank main corporate colors
+#' @export
+wb_light_blue <- "#009FDA"
+
+#' @title World Bank black
+#' @family World Bank main corporate colors
+#' @export
+wb_black <- "#231f20"
+
+#' @title World Bank white
+#' @family World Bank main corporate colors
+#' @export
+wb_white <- "#ffffff"
+
 # https://projects.susielu.com/viz-palette?colors=[%22#002244%22,%22#009fda%22,%22#2c7767%22,%22#00a996%22,%22#7b7b7b%22,%22#fdb714%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
 
 #' @title World Bank dark blue
@@ -37,9 +61,9 @@ wb_accent <- "#FDB714"
 wb_palette <- c(
   wb_dark_blue,
   wb_light_blue,
-  wb_light_green,
-  wb_dark_green,
-  wb_grey
+  wb_pal_light_green,
+  wb_pal_dark_green,
+  wb_pal_grey
 )
 
 
