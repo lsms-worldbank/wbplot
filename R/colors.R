@@ -50,38 +50,41 @@ wb_cool_neut_blue <- "#006068"
 wb_cool_neut_green <- "#006450"
 
 
+# ==============================================================================
+# Qualitative palettes
+# ==============================================================================
 
 # https://projects.susielu.com/viz-palette?colors=[%22#002244%22,%22#009fda%22,%22#2c7767%22,%22#00a996%22,%22#7b7b7b%22,%22#fdb714%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22
 
 #' @title World Bank dark blue
 #' @family World Bank corporate color palette
 #' @export
-wb_dark_blue <- "#002244"
+wb_pal_dark_blue <- wb_dark_blue
 
 #' @title World Bank light blue
 #' @family World Bank corporate color palette
 #' @export
-wb_light_blue <- "#009FDA"
+wb_pal_light_blue <- wb_light_blue
 
 #' @title World Bank light green
 #' @family World Bank corporate color palette
 #' @export
-wb_light_green <- "#00A996"
+wb_pal_light_green <- "#00A996"
 
 #' @title World Bank dark green
 #' @family World Bank corporate color palette
 #' @export
-wb_dark_green <- "#2C7767"
+wb_pal_dark_green <- "#2C7767"
 
 #' @title World Bank grey
 #' @family World Bank corporate color palette
 #' @export
-wb_grey <- "#7B7B7B"
+wb_pal_grey <- "#7B7B7B"
 
 #' @title World Bank accent color
 #' @family World Bank corporate color palette
 #' @export
-wb_accent <- "#FDB714"
+wb_accent_yellow <- "#FDB714"
 
 #' World Bank color palette
 #' 
